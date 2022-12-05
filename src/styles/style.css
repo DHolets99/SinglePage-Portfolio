@@ -14,13 +14,14 @@ body {
   margin: 0 auto;
   max-width: 1110px;
   position: relative;
+  padding: 35px 0;
 }
 
-.header {
+.header__wrapper {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 0;
 }
 
 .header__social {
