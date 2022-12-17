@@ -40,6 +40,11 @@ input[type=submit]:hover {
   color: #4EE1A0;
 }
 
+.thumb:hover .svg {
+  stroke: #4EE1A0;
+  fill: #4EE1A0;
+}
+
 .wrapper {
   margin: 0 auto;
   max-width: 1110px;
@@ -75,6 +80,11 @@ textarea {
 .header__social a,
 .footer__social a {
   border-bottom: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .header__logo,
@@ -123,7 +133,7 @@ textarea {
 .intro__pic {
   position: absolute;
   right: 0;
-  top: -190px;
+  top: -210px;
   width: 445px;
   height: 720px;
   z-index: -1;

@@ -95,6 +95,11 @@ input[type=submit]:hover {
     color: $green;
 }
 
+.thumb:hover .svg{
+    stroke: $green;
+    fill: $green;
+}
+
 .wrapper {
     margin: 0 auto;
     max-width: 1110px;
@@ -121,6 +126,8 @@ textarea {
     
     a {
         border-bottom: none;
+        padding: 0;
+        @include flex_column;
     }
 }
 
@@ -167,7 +174,7 @@ textarea {
 .intro__pic {
     position: absolute;
     right: 0;
-    top: -190px;
+    top: -210px;
     width: 445px;
     height: 720px;
     z-index: -1;
