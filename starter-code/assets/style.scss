@@ -95,6 +95,10 @@ input[type=submit]:hover {
     color: $green;
 }
 
+.svg {
+    transition: 0.2s all linear;
+}
+
 .thumb:hover .svg{
     stroke: $green;
     fill: $green;
@@ -180,8 +184,29 @@ textarea {
     z-index: -1;
 }
 
+.rings_1 {
+    position: absolute;
+    left: -25%;
+    top: -65px;
+    opacity: 0.5;
+}
+
+.circle {
+    box-sizing: border-box;
+    position: absolute;
+    right: 380px;
+    bottom: -50px;
+}
+
 .skills {
     margin-bottom: 140px;
+}
+
+.rings_2 {
+    position: absolute;
+    right: -35%;
+    bottom: -15%;
+    opacity: 0.5;
 }
 
 .skills__list {
@@ -334,6 +359,13 @@ textarea {
     }
 }
 
+.rings_3 {
+    position: absolute;
+    left: -35%;
+    top: 75%;
+    opacity: 0.5;
+}
+
 input[type=submit] {
     background: transparent;
     display: block;
@@ -348,4 +380,8 @@ input[type=submit] {
     border-top: 1px solid $white;
     padding-top: 47px;
     padding-bottom: 92px;
+}
+
+.footer__social {
+    margin-right: 0;
 }
