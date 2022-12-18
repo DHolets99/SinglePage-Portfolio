@@ -157,7 +157,7 @@ textarea {
   position: absolute;
   left: -25%;
   top: -65px;
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 .circle {
@@ -175,7 +175,7 @@ textarea {
   position: absolute;
   right: -35%;
   bottom: -15%;
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 .skills__list {
@@ -339,7 +339,7 @@ textarea {
   position: absolute;
   left: -35%;
   top: 75%;
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 input[type=submit] {
@@ -397,12 +397,18 @@ input[type=submit] {
     width: 322px;
     height: 600px;
   }
+  .rings_1 {
+    left: -40%;
+  }
   .circle {
     bottom: 0;
-    right: calc((100vw - 706px) / -1);
+    right: calc((100vw - 706px) / -0.7);
   }
   .skills {
     margin-bottom: 100px;
+  }
+  .rings_2 {
+    right: -50%;
   }
   .skills__list {
     padding-top: 52px;
@@ -455,6 +461,10 @@ input[type=submit] {
   .contacts__form {
     width: 100%;
     max-width: 445px;
+  }
+  .rings_3 {
+    left: -55%;
+    top: 90%;
   }
   .footer__wrapper {
     padding-top: 30px;
