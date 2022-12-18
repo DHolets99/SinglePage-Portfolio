@@ -143,7 +143,7 @@ textarea {
 }
 
 .intro__pic {
-  background: url("/../starter-code/assets/images/image-profile-desktop.webp") no-repeat;
+  background: url("/SinglePage-Portfolio/assets/images/image-profile-desktop.webp") no-repeat;
   background-size: contain;
   position: absolute;
   right: 0;
@@ -390,7 +390,7 @@ input[type=submit] {
     margin-bottom: 45px;
   }
   .intro__pic {
-    background: url("/../starter-code/assets/images/image-profile-tablet.webp") no-repeat;
+    background: url("/SinglePage-Portfolio/assets/images/image-profile-tablet.webp") no-repeat;
     background-size: contain;
     right: calc((100vw - 706px) / -2);
     top: -151px;
@@ -528,7 +528,7 @@ input[type=submit] {
     margin-bottom: 24px;
   }
   .intro__pic {
-    background: url("/../starter-code/assets/images/image-profile-mobile.webp") no-repeat;
+    background: url("/SinglePage-Portfolio/assets/images/image-profile-mobile.webp") no-repeat;
     background-size: contain;
     width: 174px;
     height: 383px;
